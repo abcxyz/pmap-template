@@ -31,5 +31,5 @@ jobs:
   snapshot:
     uses: 'abcxyz/pmap/.github/workflows/resource-mapping-check.yml@v0.0.5-rc' # Change here to pin the tag or commit.
     with:
-      resource_mapping_directory: 'example/org/mapping' #Change here if you change the folder to store the mappings.
+      resource_mapping_directory: 'example_org/mapping' #Change here if you change the folder to store the mappings.
       go_version: '>=1.20.0'
