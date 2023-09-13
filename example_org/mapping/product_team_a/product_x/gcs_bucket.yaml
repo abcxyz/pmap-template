@@ -1,0 +1,9 @@
+resource:
+  name: '//storage.googleapis.com/pmap-template-static-bucket-23b4'
+  provider: 'gcp'
+  subscope: 'parent/foo/child/bar?key1=value1&key2=value2'
+annotations:
+  wipeout_plan_id: 'policy/product_team_a/product_x_user_data_retention'
+contacts:
+  email:
+    - 'product_team_a@gmail.com'

@@ -1,0 +1,22 @@
+name: 'snapshot-mapping-data-change'
+
+on:
+  push:
+    branches:
+      - 'master'
+  workflow_dispatch:
+
+
+concurrency: '${{ github.workflow }}-${{ github.head_ref || github.ref }}-snapshot-mapping-data-change'
+
+jobs:
+  snapshot:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    uses: 'abcxyz/pmap/.github/workflows/snapshot-file-change.yml@v0.0.5-rc' # Change here to pin the tag or commit.
+    with:
+      workload_identity_provider: '${{ vars.workload_identity_provider }}'
+      service_account: '${{ vars.service_account }}'
+      destination_prefix: '${{ vars.gcs_bucket }}/mapping'
+      path: 'example_org/mapping' #Change here if you change the folder to store the mappings.

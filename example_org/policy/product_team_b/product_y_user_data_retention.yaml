@@ -1,0 +1,13 @@
+plan_id: policy/product_team_b/product_y_user_data_retention
+title: Wipeout Plan for User Data of Product Y
+description: This is an example wipeout plan.
+scope: Product Y
+data_type: User data
+identifier: Customer ID
+deletion_timeline:
+  - stage:
+      action: Deletion
+      purpose: User Health Data
+      trigger:
+        trigger_event: User-initiated deletion
+        delay: 30 days
