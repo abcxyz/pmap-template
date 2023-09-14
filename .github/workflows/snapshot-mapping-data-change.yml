@@ -33,4 +33,4 @@ jobs:
       workload_identity_provider: '${{ vars.workload_identity_provider }}'
       service_account: '${{ vars.service_account }}'
       destination_prefix: '${{ vars.gcs_bucket }}/mapping'
-      path: 'example_org/mapping' #Change here if you change the folder to store the mappings.
+      path: 'example_org/mapping' # Change here if you change the folder to store the mappings.

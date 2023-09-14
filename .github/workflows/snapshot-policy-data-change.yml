@@ -33,4 +33,4 @@ jobs:
       workload_identity_provider: '${{ vars.workload_identity_provider }}'
       service_account: '${{ vars.service_account }}'
       destination_prefix: '${{ vars.gcs_bucket }}/policy'
-      path: 'example_org/policy' #Change here if you change the folder to store the policies.
+      path: 'example_org/policy' # Change here if you change the folder to store the policies.
