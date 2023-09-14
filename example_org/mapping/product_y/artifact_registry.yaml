@@ -4,4 +4,5 @@ resource:
 annotations:
   wipeout_plan_id: 'policy/wipeout/default'
 contacts:
-  email: 'product_y@example.com'
+  email:
+    - 'product_y@example.com'
