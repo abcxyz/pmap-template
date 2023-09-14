@@ -2,7 +2,6 @@ resource:
   name: '//artifactregistry.googleapis.com/projects/pmap-template-a-b0/locations/us-central1/repositories/us-central1-docker.pkg.dev/pmap-template-static-artifact-registry-repo-23b4'
   provider: 'gcp'
 annotations:
-  wipeout_plan_id: 'policy/product_team_b/product_y_user_data_retention'
+  wipeout_plan_id: 'policy/wipeout/default'
 contacts:
-  email:
-    - 'product_team_b@gmail.com'
+  email: 'product_y@example.com'

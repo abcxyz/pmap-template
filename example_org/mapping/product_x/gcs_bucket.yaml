@@ -3,7 +3,7 @@ resource:
   provider: 'gcp'
   subscope: 'parent/foo/child/bar?key1=value1&key2=value2'
 annotations:
-  wipeout_plan_id: 'policy/product_team_a/product_x_user_data_retention'
+  wipeout_plan_id: 'policy/wipeout/default'
 contacts:
   email:
-    - 'product_team_a@gmail.com'
+    - 'product_x@example.com'

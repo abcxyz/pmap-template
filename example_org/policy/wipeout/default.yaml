@@ -1,7 +1,5 @@
-plan_id: policy/product_team_a/product_x_user_data_retention
-title: Wipeout Plan for User Data of Product X
-description: This is an example wipeout plan.
-scope: Product X
+plan_id: policy/wipeout/default
+description: This is an default wipeout plan.
 data_type: User data
 identifier: Customer ID
 deletion_timeline:
