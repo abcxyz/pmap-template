@@ -1,1 +1,1 @@
-# repo-template
+# pmap-template

@@ -1,0 +1,17 @@
+plan_id: policy/wipeout/default
+description: This is an default wipeout plan.
+data_type: User data
+identifier: Customer ID
+deletion_timeline:
+  - stage:
+      action: Deletion
+      purpose: User Health Data
+      trigger:
+        trigger_event: User-initiated deletion
+        delay: 356 days
+  - stage:
+      action: Deletion
+      purpose: Spam and Abuse
+      trigger:
+        trigger_event: Identifier expiration
+        delay: 356 days
