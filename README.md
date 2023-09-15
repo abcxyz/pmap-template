@@ -30,7 +30,7 @@ The central privacy/compliance eng team need to complete the steps below:
     to set the repository variables for WORKLOAD_IDENTITY_PROVIDER and
     SERVICE_ACCOUNT with outputs from step 2 and set the repository variables
     for GCS_BUCKET with the output from
-    [PMAP Terraform modules](https://github.com/abcxyz/pmap/blob/b1105ccaa211a3f0bba7c25edbe0f794dc92d54f/terraform/e2e/outputs.tf#L55).
+    [PMAP Terraform modules](https://github.com/abcxyz/pmap/blob/b1105ccaa211a3f0bba7c25edbe0f794dc92d54f/terraform/e2e/outputs.tf#L55)
     if you are following the
     [instructions](https://github.com/abcxyz/pmap#infrastructure-for-pmap) to
     create the infrastructure needed by PMAP instance.
@@ -64,10 +64,11 @@ The central privacy/compliance eng team need to complete the steps below:
 
 *   Register and annotate resources to associate the resources to its specific
     policies/controls by opening a PR and add a mapping `yaml` file under the
-    [sub folder](\(./example_org/policy\)) where stores all the data mappings.
+    [sub folder](./example_org/mapping) where stores all the data mappings.
     The association of the resource to the corresponding policies/controls is
     achieved via `annotations` field. See example
-    [here](./example_org/mapping/product_x/gcs_bucket.yaml). The central
-    privacy/compliance eng team has the flexibility to determine how to group
+    [here](./example_org/mapping/product_x/gcs_bucket.yaml).
+
+    **NOTE:** The central privacy/compliance eng team has the flexibility to determine how to group
     mappings, they don’t have to follow the group mappings in the above
-    example(Product at level 1 and Resource at level 2).
+    [example](./example_org/mapping)(Product at level 1 and Resource at level 2).
