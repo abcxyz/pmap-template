@@ -72,3 +72,9 @@ The central privacy/compliance eng team need to complete the steps below:
     **NOTE:** The central privacy/compliance eng team has the flexibility to determine how to group
     mappings, they don’t have to follow the group mappings in the above
     [example](./example_org/mapping)(Product at level 1 and Resource at level 2).
+
+### Data Governor
+
+*   Approve the registered policy/control and resources by approving the related opening PRs
+    created by policy/control owners and data owners.
+*   Query the policy/contrl and resources stored in BigQuery, see details [here](https://github.com/abcxyz/pmap#data-governortodo).
