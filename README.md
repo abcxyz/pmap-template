@@ -75,4 +75,4 @@ The central privacy/compliance eng team need to complete the steps below:
 
 *   Approve the registered policy/control and resources by approving the related opening PRs
     created by policy/control owners and data owners.
-*   Query the policy/contrl and resources stored in BigQuery, see details [here](https://github.com/abcxyz/pmap#data-governortodo).
+*   Query the policy/control and resources stored in BigQuery, see details [here](https://github.com/abcxyz/pmap#data-governortodo).
