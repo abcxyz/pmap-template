@@ -21,9 +21,7 @@ The central privacy/compliance eng team need to complete the steps below:
 2.  Set up
     [Workload Identity Federation](https://cloud.google.com/iam/docs/workload-identity-federation),
     and a service account with adequate condition and permission, see details
-    [here](https://github.com/abcxyz/pmap#workload-identity-federation). Please
-    restrict any human access to this service account, it should only be used by
-    your PMAP instance.
+    [here](https://github.com/abcxyz/pmap#workload-identity-federation).
 
 3.  Follow steps
     [here](https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository)
