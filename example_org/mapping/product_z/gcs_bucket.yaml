@@ -1,0 +1,9 @@
+resource:
+  name: '//storage.googleapis.com/pmap-template-static-bucket-23b4'
+  provider: 'gcp'
+  subscope: 'product_z/service_i?key1=value1&key2=value2'
+annotations:
+  wipeout_plan_id: 'policy/wipeout/product_z/default'
+contacts:
+  email:
+    - 'product_z@example.com'
