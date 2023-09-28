@@ -1,0 +1,16 @@
+plan_id: policy/wipeout/product_z/default
+description: This is an default wipeout plan for product Z.
+data_type: User data
+identifier: Email
+deletion_timeline:
+  - stage:
+      action: Deletion
+      trigger:
+        trigger_event: User-initiated deletion
+        delay: 30 days
+  - stage:
+      action: Deletion
+      purpose: Spam and Abuse
+      trigger:
+        trigger_event: Identifier expiration
+        delay: 30 days
